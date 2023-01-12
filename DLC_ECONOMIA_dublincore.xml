@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="/webservices/catalog/xsl/searchRetrieveResponse.xsl"?>
+
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/" xmlns:oclcterms="http://purl.org/oclc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<version>1.1</version>
+<numberOfRecords>3</numberOfRecords>
+<records>
+<record>
+<recordSchema>info:srw/schema/1/dc</recordSchema>
+<recordPacking>xml</recordPacking>
+<recordData>
+<oclcdcs>
+<dc:accrual method>Protocolo FTP</dc:accrual method>
+<dc:accrual periodictity>diario</dc:accrual periodicity>
+<dc:subject>Economía</dc:subject>
+<dc:subject>Velocidad del viento</dc:subject>
+<dc:subject>España</dc:subject>
+<dc:subject>Mercado</dc:subject>
+<dc:subject>Precio de la luz</dc:subject>
+<dc:subject>Energías Renovables</dc:subject>
+<dc:title>Colección de datos sobre el precio de luz y la velocidad del viento diarios en 5 provincias de España.</dc:title>
+<dc:type>Collection</dc:type>
+</oclcdcs>
+</recordData>
+</record>
+<record>
+<recordSchema>info:srw/schema/1/dc</recordSchema>
+<recordPacking>xml</recordPacking>
+<recordData>
+<oclcdcs>
+<dc:coverage>De 01-01-2015 hasta actualmente.</dc:coverage>
+<dc:coverage>España</dc:coverage>
+<dc:creator>Grupo Economía DLC.</dc:creator>
+<dc:contributor>OMIE</dc:contributor>
+<dc:description>Precio, por hora, de la luz (euro por MWh) en España.</dc:description>
+<dc:format>1831555 observables y 7 variables.</dc:format>
+<dc:format>datetime_utc, sistema, fecha, hora, bandera, precio, fecha_actualizacion.</dc:format>
+<dc:format>.db, tamaño variable (3.52MB hasta ahora).</dc:format>
+<dc:identifier>ID:0.1109/5.771073</dc:identifier>
+<dc:language>sp</dc:language>
+<dc:publisher>ESIOS-REE</dc:publisher>
+<dc:relation>Colección de datos sobre el precio de luz y la velocidad del viento diarios en 5 provincias de España. [Colección que engloba a ambos datasets del presente trabajo.]</dc:relation>
+<dc:rights>Público</dc:rights>
+<dc:source>https://www.esios.ree.es/es [ESIOS/REE]</dc:source>
+<dc:subject>Economía</dc:subject>
+<dc:subject>Electricidad</dc:subject>
+<dc:subject>España</dc:subject>
+<dc:subject>Mercado</dc:subject>
+<dc:subject>Precio de la luz</dc:subject>
+<dc:title>Precios diarios de la electricidad del sistema eléctrico Español</dc:title>
+<dc:type>Dataset</dc:type>
+</oclcdcs>
+</recordData>
+</record>
+<record>
+<recordSchema>info:srw/schema/1/dc</recordSchema>
+<recordPacking>xml</recordPacking>
+<recordData>
+<oclcdcs>
+<dc:coverage>De 01-01-2015 hasta actualmente.</dc:coverage>
+<dc:coverage>España</dc:coverage>
+<dc:creator>Grupo Economía DLC.</dc:creator>
+<dc:description>Velocidades del viento, media diaria y racha máxima, en las siguientes cinco parques eólico de España, ubicados en las provincias: La Coruña, Albacete, Almería, León y Zaragoza.</dc:description>
+<dc:format>1831555 observables y 12 variables.</dc:format>
+<dc:format>fecha, zona, vel_km_h, vel_m_s, vel_mph, vel_nudos, racha_max_km_h, racha_max_m_s, racha_max_mph, racha_max_nudos, hora_racha, fecha_actualizacion.</dc:format>
+<dc:format>.db, tamaño variable (2.52MB actual).</dc:format>
+<dc:identifier>10.5281/zenodo.500902</dc:identifier>
+<dc:language>sp</dc:language>
+<dc:publisher>Grupo Economía DLC</dc:publisher>
+<dc:relation>Colección de datos sobre el precio de luz y la velocidad del viento diarios en 5 provincias de España. [Colección que engloba a ambos datasets del presente trabajo.]</dc:relation>
+<dc:rights>Privado</dc:rights>
+<dc:source>Dispositivos de medición instalados en los siguientes parques eólicos: Puerto de San Isidro (León), Hellín (Albacete), Monte Iroite (A Coruña), Abla (Almería), Burjaraloz (Zaragoza).</dc:source>
+<dc:subject>Velocidad del viento</dc:subject>
+<dc:subject>Racha de viento</dc:subject>
+<dc:subject>España</dc:subject>
+<dc:subject>Energías renovables</dc:subject>
+<dc:subject>Precio de la luz</dc:subject>
+<dc:title>Datos diarios de la velocidad del viento en distintas unidades de medida tomados en 5 provincias españolas</dc:title>
+<dc:type>Dataset</dc:type>
+</oclcdcs>
+</recordData>
+</record>
+</records>
+</searchRetrieveResponse>
